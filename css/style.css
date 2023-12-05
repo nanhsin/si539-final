@@ -37,8 +37,9 @@ a:visited {
 }
 
 .nav_links li {
+    color: #1f2232;
     list-style: none;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 10px 0;
 }
 
@@ -119,6 +120,7 @@ h4 {
     grid-template-columns: 1fr;
     grid-gap: 40px;
     margin: 10px;
+    justify-content: center;
     justify-items: center;
 }
 
@@ -130,7 +132,9 @@ h4 {
 }
 
 .project img {
-    width: 100%;
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
 .project iframe {
@@ -162,7 +166,7 @@ h4 {
     display: none;
     position: fixed;
     z-index: 1;
-    left: -1%;
+    left: -3%;
     top: 0;
     width: 100%;
     height: 100%;
@@ -177,7 +181,7 @@ h4 {
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
-    padding: 20px;
+    padding: 40px 20px;
     width: 90%;
 }
 
@@ -211,7 +215,7 @@ footer {
     margin: 50px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
     body, button {
         font-size: 18px;
         line-height: 2;
@@ -220,6 +224,10 @@ footer {
     .nav_links {
         justify-content: flex-end;
         margin-right: 20px;
+    }
+
+    .nav_links li {
+        margin: 10px 20px;
     }
 
     .container {
@@ -240,40 +248,22 @@ footer {
 
     h1 {
         font-size: 50px;
-        /* text-align: center;
-        font-weight: bolder;
-        font-family: serif;
-        margin: 40px; */
     }
     
     h1+p {
         font-size: 24px;
-        /* margin-bottom: 20px; */
     }
     
     h2 {
         font-size: 32px;
-        /* text-align: center;
-        font-weight: bold;
-        font-family: serif;
-        margin: 40px; */
     }
     
     h3 {
         font-size: 26px;
-        /* color: #397367;
-        font-weight: bolder;
-        text-align: center;
-        line-height: 1.5; */
     }
     
     h4 {
         font-size: 16px;
-        /* color: #397367;
-        font-weight: bold;
-        text-align: center;
-        line-height: 1.5;
-        margin-bottom: 15px; */
     }
 
     #contact img {
