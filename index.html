@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="css/html5reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Nan-Hsin Lin | Portfolio</title>
+</head>
+
+<body>
+    <a class="skip" href="#skip" tabindex="1">Skip to Main Content</a>
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li id="home">Nan-Hsin Lin</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="skip">
+        <h1 id="about">Hey! </h1>
+
+            <p>I'm currently a MS Information - Data Science student at University of Michigan.<br>
+                I previously worked as a data engineer at HP Inc.<br>
+                I aspire to transform business operations through data and information systems.</p>
+
+        <h2 id="projects">PROJECTS</h2>
+        <div class="container">
+            <div class="project">
+                <h3>LGBTQ+ Celebrities</h3>
+                <h4>Data Analysis | R | Statistics</h4>
+                <img src="images/lgbt.png" alt="Number of LGBTQ+ Celebrities in Asia">
+                <p>Aren't you curious about these questions?
+                <ul>
+                    <li>How many LGBTQ+ celebrities are there?</li>
+                    <li>People are getting more willing to come out. Is this true?</li>
+                    <li>What occupations are LGBTQ+ friendly?</li>
+                    <li>As a member of LGBTQ+ community, where should you live?</li>
+                </ul>
+                </p>
+                <div>
+                    <a href="https://nanhsin.github.io/LGB-Celebrities/Analysis-of-LGB-Celebrities.html" target="_blank">Analysis Report</a>
+                    <a href="https://github.com/nanhsin/LGB-Celebrities" target="_blank">GitHub</a>
+                    <a href="https://nancy-lin.medium.com/%E5%8F%B2%E4%B8%8A%E5%A4%9A%E5%B0%91lgbt%E5%90%8D%E4%BA%BA%E5%87%BA%E6%AB%83%E4%BA%86-%E7%B6%AD%E5%9F%BA%E6%95%B8%E6%93%9A%E5%A4%A7%E8%A7%A3%E5%AF%86-423891d6d217" target="_blank">Article</a>
+                </div>
+            </div>
+            <div class="project">
+                <h3>YouBike Dispatching Plan</h3>
+                <h4>Data Analysis | Python | Operations Research</h4>
+                <img src="images/youbike.png" alt="YouBike Dispatching Optimized Route">
+                <p>Have you ever walked to a YouBike station and found out there's no bike to rent at all?<br>
+                    Have you ever tried to return YouBike but found the parking lots were already full of bikes?<br>
+                    In this project, we would like to develop the best route for trucking service to deliver bikes
+                    between YouBike stations to balance the demand and supply of bikes at each stations.<br>
+                    * YouBike is a public bicycle sharing service in Taiwan.</p>
+                <div>
+                    <a href="https://github.com/nanhsin/YouBike-Dispatching-Plan/blob/master/YouBike-Dispatching-Plan.ipynb" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="project">
+                <h3>NTUEater</h3>
+                <h4>App Development | Python | Heroku | LINE API | GitHub</h4>
+                <iframe width="480" height="270" 
+                    src="https://www.youtube.com/embed/Kfq3tNRJqrM" 
+                    title="NTUEater Video Demo">
+                </iframe>
+                <p>A food recommendation app on LINE.<br>
+                    Designed for anyone (especially students) around National Taiwan University (NTU) to save time on
+                    picking the restaurants that meet your needs.</p>
+            </div>
+            <div class="project">
+                <h3>CHANCE (CHI SDC 2019)</h3>
+                <h4>User Research | UX</h4>
+                <iframe width="480" height="270"
+                    src="https://www.youtube.com/embed/Q_vjPdqGSw8"
+                    title="CHANCE Video Demo">
+                </iframe>
+                <p>An anonymous social networking platform which incorporates Taiwanese religious involvement: interpretation of lot poems.<br>
+                    Designed for people who suffer from depression, anxiety, and other mental health issue.</p>
+                <div>
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Poster</button>
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <img src="images/CHANCE-poster.png" alt="CHANCE's Poster">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>GET IN TOUCH</h2>
+        <div id="contact">
+            <a href="mailto:nanhsin@umich.edu">
+                <img src="images/email.png" alt="Email Icon">
+                <!-- <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a> -->
+            </a>
+            <a href="https://www.linkedin.com/in/nanhsinlin/" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+                <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Vector Stall - Flaticon</a> -->
+            </a>
+            <a href="https://github.com/nanhsin" target="_blank">
+                <img src="images/github.png" alt="GitHub Icon">
+                <!-- <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Dave Gandy - Flaticon</a> -->
+            </a>
+            <a href="https://nancy-lin.medium.com" target="_blank">
+                <img src="images/medium.png" alt="Medium Icon">
+                <!-- <a href="https://www.flaticon.com/free-icons/medium" title="medium icons">Medium icons created by Freepik - Flaticon</a> -->
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2023 by Nan-Hsin Lin<br />
+    </footer>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
