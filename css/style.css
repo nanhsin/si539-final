@@ -119,6 +119,7 @@ h4 {
     grid-template-columns: 1fr;
     grid-gap: 40px;
     margin: 10px;
+    justify-items: center;
 }
 
 .project {
@@ -226,6 +227,10 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-gap: 50px;
         margin: 20px;
+    }
+
+    .project {
+        width: 90%;
     }
 
     #about+p {
