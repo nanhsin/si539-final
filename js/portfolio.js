@@ -19,15 +19,13 @@ window.addEventListener("load", function () {
 
 // Modal for project CHANCE's poster
 
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
+var modal = document.getElementById("posterModal");
 
-btn.onclick = function () {
+document.getElementById("posterBtn").onclick = function () {
     modal.style.display = "block";
 }
 
-span.onclick = function () {
+document.getElementsByClassName("close")[0].onclick = function () {
     modal.style.display = "none";
 }
 
@@ -37,3 +35,19 @@ window.onclick = function (event) {
     }
 }
 // https://www.w3schools.com/howto/howto_css_modals.asp
+
+
+// Responsive iframe
+
+function resizeIFrameToFitContent( iFrame ) {
+
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
