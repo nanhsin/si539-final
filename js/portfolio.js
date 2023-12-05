@@ -51,3 +51,4 @@ window.addEventListener('DOMContentLoaded', function(e) {
         resizeIFrameToFitContent( iframes[i] );
     }
 } );
+// https://stackoverflow.com/questions/819416/adjust-width-and-height-of-iframe-to-fit-with-content-in-it
